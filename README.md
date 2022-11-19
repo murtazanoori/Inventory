@@ -62,3 +62,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## How to Install This Project
+
+1 Download This Project 
+2 Run Composer Update
+3 Rename .env.example file to .env 
+4 Run Php Artisan Key:Generate , Copy The Key And Paste it on .env App_Key
+5 Go To PhpMyAdmin And Create A Database, After You’ve Created The DataBase Go To Import And Add The Inventory.Sql File And Click On Go
+6 Run Php Artisan:Migrate
+7 Run Php Artisan Serve
+
